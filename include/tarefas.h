@@ -26,7 +26,6 @@ int parse_data(const char* str_prazo, Data* resultado);
 int comparar_datas(Data d1, Data d2);
 void formatar_data(Data d, char* buffer, size_t tamanho);
 
-
 // Estrutura para Subtarefas
 typedef struct Subtarefa {
     int id;

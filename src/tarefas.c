@@ -1,7 +1,7 @@
 #include "tarefas.h"
 
 
-// FUNÇÕES AUXILIARES DE DATAS
+// FUNÇÕES AUXILIARES DE DATAS:
 Data criar_data(int dia, int mes, int ano) {
     Data d;
     d.dia = dia;
