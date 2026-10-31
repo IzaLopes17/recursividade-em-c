@@ -22,7 +22,7 @@ typedef struct {
 // Funções para manipulação de datas?? 
 Data criar_data(int dia, int mes, int ano);
 int validar_data(Data d);
-Data parse_data(const char* str_prazo);
+int parse_data(const char* str_prazo, Data* resultado);
 int comparar_datas(Data d1, Data d2);
 void formatar_data(Data d, char* buffer, size_t tamanho);
 
